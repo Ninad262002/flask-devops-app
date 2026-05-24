@@ -9,7 +9,7 @@ def home():
     return jsonify({
         "message": "Hello from Ninad's DevOps App!",
         "status": "running",
-        "version": "1.0.0"
+        "version": "1.0.2"
     })
 
 @app.route("/health")
